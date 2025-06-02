@@ -1,0 +1,41 @@
+body {
+  background: #f0f0f0;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  padding: 24px;
+  color: black;
+}
+
+h1 {
+  color: #2e7d32; /* green /
+  font-size: 28px;
+}
+
+h2 {
+  color: #fbc02d; / yellow /
+  margin-top: 20px;
+}
+
+.section {
+  background: white;
+  border-left: 6px solid #000; / black stripe */
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 500px;
+  border-radius: 6px;
+}
+
+.fade {
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+} 
